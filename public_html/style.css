@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+body {background-color: #FAFAFA;
+text-align: center}
+#slogan1 {margin-top: 10%;
+color: black;
+font-size: 450%}
+#slogan2 {margin-bottom: 50px;
+color: black;
+font-size: 150%;
+font-weight: 300}
+#driver {width: 175px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+margin-bottom: 4%}
+#navigation {height: 14%;}
+#logo {margin-left: 4px;
+margin-top: 0px;
+margin-bottom: 0px}
+#help {margin-right: 0px}
+#becomeahost {margin-right: 8px}
+#parking {margin-right: 9px}
+#copyright {color: black;
+font-size: 90%;
+opacity: 0.4;
+margin-top: 9.35%}
+#header {text-align: center;
+background-color: transparent;
+margin-bottom: 0}
+.red {color: red}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

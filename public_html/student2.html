@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Parking4Students.com</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="student2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+<body>
+<nav id ="navigation"class="navbar navbar-expand-lg navbar-light" style="background: white">
+        
+    <a id="logo"class="navbar-brand" href="index.html">Parking4Students.com</a>
+        
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        
+    <span class="navbar-toggler-icon"></span>
+        
+    </button>
+        
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="aboutus.html" id="becomeahost" >About us</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="help" >Help</a>
+            </li>
+        </ul>  
+    </div>
+</nav>
+<div id ="box"class="container-fluid">
+<h1 id="letsgetyouparked"class="display-4">Sign up!</h1>
+<p id="text">All of your personal information remains completely private.</p>
+</div>
+<div id="form" class="container-fluid">
+
+
+
+<form id ="submitform" class="needs-validation" novalidate action="insert.php" method="post">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="firstname">First name</label>
+      <input class="form-control" id="firstname" placeholder="e.g. William" required name="firstname">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="lastname">Last name</label>
+      <input class="form-control" id="lastname" placeholder="e.g. Shakespeare" required name="lastname">
+    </div>
+  </div>
+    <div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="king@lear.com" required name="email">
+  </div>
+  <div class="form-group col-md-6">
+    <label for="phonenumber">Phone number</label>
+    <input type="text" class="form-control" id="phonenumber" placeholder="#" required name="phonenumber">
+  </div>
+    </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="school">School</label>
+      <select id="school" class="form-control" required name="school">
+        <option selected>Marianopolis College</option>
+        <option>McGill University</option>
+          <option>Vanier College</option>
+          <option>Concordia University</option>
+          <option>John Abbott College</option>
+          <option>UdeM / HEC</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="program">Program</label>
+      <input type="text" class="form-control" id="program" placeholder="e.g. Bachelor or Arts" required name="program">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="schedule">Upload a screenshot of your schedule</label>
+    <input type="file" class="form-control-file" id="schedule" required>
+  </div>
+    <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="carmodel">Car model</label>
+      <input class="form-control" id="carmodel" placeholder="e.g. Honda Civic 2015" required name="car">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="carcolor">Car color</label>
+      <input class="form-control" id="carcolor" placeholder="e.g. Purple" required name="color">
+    </div>
+  </div>
+    <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+    <label class="form-check-label" for="exampleCheck1">I have read and accepted the <a href="terms.pdf" target="_blank">Terms &amp; Conditions</a></label>
+  </div>
+    <button id="submit" type="submit" class="btn btn-info btn-lg">Submit</button>
+</form>
+
+
+
+
+
+</div>
+<p id="copyright">&copy; Parking4Students.com 2018. Crafted with <span class="red">&hearts;</span> by two college students.</p>
+</body>
+    
+<!-- Javascript -->
+    
+<script type="text/javascript">
+        
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+    
+</script>
+</html>
+

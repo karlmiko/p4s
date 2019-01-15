@@ -1,0 +1,40 @@
+[04-Aug-2018 19:11:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/tfjtestt/public_html/insert.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/tfjtestt/public_html/insert.php on line 12
+[04-Aug-2018 19:46:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/tfjtestt/public_html/insert.php:6
+Stack trace:
+#0 {main}
+  thrown in /home2/tfjtestt/public_html/insert.php on line 6
+[04-Aug-2018 19:54:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/tfjtestt/public_html/insert.php:6
+Stack trace:
+#0 {main}
+  thrown in /home2/tfjtestt/public_html/insert.php on line 6
+[04-Aug-2018 19:54:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/tfjtestt/public_html/insert.php:6
+Stack trace:
+#0 {main}
+  thrown in /home2/tfjtestt/public_html/insert.php on line 6
+[04-Aug-2018 19:59:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/tfjtestt/public_html/insert.php:6
+Stack trace:
+#0 {main}
+  thrown in /home2/tfjtestt/public_html/insert.php on line 6
+[04-Aug-2018 20:04:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/tfjtestt/public_html/insert.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/tfjtestt/public_html/insert.php on line 13
+[04-Aug-2018 20:08:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/tfjtestt/public_html/insert.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/tfjtestt/public_html/insert.php on line 13
+[04-Aug-2018 20:14:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home2/tfjtestt/public_html/insert.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/tfjtestt/public_html/insert.php on line 13
+[04-Aug-2018 20:21:57 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting ']' in /home2/tfjtestt/public_html/insert.php on line 50
+[04-Aug-2018 20:25:10 UTC] PHP Parse error:  syntax error, unexpected '$_POST' (T_VARIABLE), expecting ']' in /home2/tfjtestt/public_html/insert.php on line 50
+[04-Aug-2018 21:19:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/tfjtestt/public_html/insert.php on line 25
+[04-Aug-2018 21:21:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/tfjtestt/public_html/insert.php on line 25
+[04-Aug-2018 21:22:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/tfjtestt/public_html/insert.php on line 25
+[07-Aug-2018 00:12:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/tfjtestt/public_html/addtodatabase.php on line 8
+[07-Aug-2018 00:13:21 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/tfjtestt/public_html/addtodatabase.php on line 8
+[07-Aug-2018 00:21:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home2/tfjtestt/public_html/addtodatabase.php on line 8
